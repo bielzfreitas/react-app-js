@@ -1,17 +1,8 @@
-# react-app-js
-Application using Vite React (JavaScript)
+# React + Vite
 
-- Aplicativo com a intenção de ser uma lista de presença, onde digitamos um nome e adiciona em uma lista.
-- Application with the intention of being a attendance list, where we type a name and add it to a list.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-In terminal create
-- mkdir React-App-JS
-- cd React-App-JS
-- npm create vite@latest reactapp --template react
-- Select framework "React"
-- Select variant "JavaScript"
+Currently, two official plugins are available:
 
-Open in VSCode 
-- open terminal project
-- npm install
-- npm run dev
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
